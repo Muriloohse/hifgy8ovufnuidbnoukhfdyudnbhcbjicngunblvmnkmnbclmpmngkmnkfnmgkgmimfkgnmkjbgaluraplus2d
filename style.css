@@ -1,7 +1,7 @@
 :root{
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
+    --botao-azul: #00E5FF;
     --cor-de-fundo: #280594;
 }
 *{
@@ -15,8 +15,17 @@ body{
 .principal{
     background-image: url(ing/Background.png);
     background-repeat: no-repeat;
-    background-size: contain
+    background-size: contain;
+
 }
 .container{
-    height: 100% vh;
+    height: 100vh;
+    display: grid;
+}
+.container-botao{
+    background-image: linear-gradient(#3D84A7, #46CDCf);
+    border-radius: 10px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
 }
