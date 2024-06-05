@@ -9,7 +9,7 @@
     padding: 0;
 }
 body{
-    background: var(--cor-de-fundo);
+    background: linear-gradient(#FF2CDF, #0014FF);
     color: var(--branco-principal)
 }
 .principal{
@@ -21,9 +21,10 @@ body{
 .container{
     height: 100vh;
     display: grid;
+    grid-template-columns: 25% 25%;
 }
 .container-botao{
-    background-image: linear-gradient(#3D84A7, #46CDCf);
+    background-image: linear-gradient(#BAB0D4, #4C1A57);
     border-radius: 10px;
     padding: 1em;
     color: var(--branco-principal);
