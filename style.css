@@ -75,3 +75,20 @@ body{
     display: inline-block;
     margin-top: 1em;
 }
+.dispositivos-lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: hiragana;
+    margin: 5em 0;
+}
+.dispositivos{
+    text-align: center;
+}
+.dispositivos-titulo{
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+.lista-titulo{
+    font-size: 32px;
+    color: var(--branco-principal);
+}
